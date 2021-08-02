@@ -2,9 +2,9 @@ environment:
   - PORT=3000
 resources:
   database:
-    type: postgres
+    type: mariadb 
     options:
-      version: 12.2 
+      version: 10.3.8
       storage: 20
 services:
   web:
